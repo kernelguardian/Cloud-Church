@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "656172678748",
+    "firebase_url": "https://cloud-church-35488.firebaseio.com",
+    "project_id": "cloud-church-35488",
+    "storage_bucket": "cloud-church-35488.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656172678748:android:d375659839b3952d",
+        "android_client_info": {
+          "package_name": "com.example.asish.cloudchurch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656172678748-ib3oa5pkab7t7ur00f4397cqtpl9a9op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asish.cloudchurch",
+            "certificate_hash": "473421ea82316346f5cf88a6fd7beee43c9ad48c"
+          }
+        },
+        {
+          "client_id": "656172678748-r75mtv4maq1gv62evp80rf9c1l3edd5r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.asish.cloudchurch",
+            "certificate_hash": "ee0e7f21256b38aed5de9888eb512bca1cc7f40b"
+          }
+        },
+        {
+          "client_id": "656172678748-5umq5di95dn2t7gscvm7t5km7iomrlh1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDNUbhi1c7Zeu0QXDfQpkp9YjxwFexfhCM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656172678748-5umq5di95dn2t7gscvm7t5km7iomrlh1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
