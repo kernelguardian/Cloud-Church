@@ -1,18 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
+    android:padding="15dp"
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+<LinearLayout
+    android:id="@+id/linearLayout1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:text="Cloud Church"/>
+</LinearLayout>
 
-    <EditText
-        android:id="@+id/login"
+<LinearLayout
+    android:gravity="center"
+    android:layout_below="@id/linearLayout1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:id="@+id/loginButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Log In">
-    </EditText>
+        android:text="Log In"
+        android:padding="10dp"
+        android:paddingBottom="20dp"
+        android:onClick="login"/>
+
+    <Button
+        android:id="@+id/signinButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:padding="10dp"
+        android:paddingTop="5dp"
+        android:onClick="signup" />
+
+</LinearLayout>
+
 
 </RelativeLayout>

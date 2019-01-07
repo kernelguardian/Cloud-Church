@@ -6,4 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".mainpage">
 
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Yaaay"/>
+
 </android.support.constraint.ConstraintLayout>
